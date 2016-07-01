@@ -11,7 +11,8 @@ How to run:
 
 `docker run -d -p 9090:9090 -p 39500-39999:39500:39999 --name bmp qautomatron/docker-browsermob-proxy`
 
-If you want to set your options, you can pass Enviroment Variables:
+If you want to set your options, you can pass Enviroment Variables:  
+
 `-e BMP_PORT=9090`  
 
 `-e PORT_RANGE=39500-39999`  
