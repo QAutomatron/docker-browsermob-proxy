@@ -21,4 +21,4 @@ If you want to set your options, you can pass Enviroment Variables:
 
 
 Example:
-`docker run -d -p 9080:9080 -p 5555-5560:5555-5560 -e BMP_PORT=9080 -e PORT_RANGE=39500-39999 --name bmp qautomatron/docker-browsermob-proxy`
+`docker run -d -p 9080:9080 -p 39500-39999:39500-39999 -e BMP_PORT=9080 -e PORT_RANGE=39500-39999 --name bmp qautomatron/docker-browsermob-proxy`
