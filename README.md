@@ -1,10 +1,14 @@
 # docker-browsermob-proxy
 Dockerfile to build container with Browsermob Proxy
+
 Current version: 2.1.2
 
 Default options:
+
 Browsermob Proxy Port: 9090
+
 Proxy Port Range: 39500-39999
+
 TTL Timeout (shutdown innactive proxy): 600 sec
 
 How to run:
