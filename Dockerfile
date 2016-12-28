@@ -20,7 +20,7 @@ RUN apt-get update -qqy \
   && sed -i 's/securerandom\.source=file:\/dev\/random/securerandom\.source=file:\/dev\/urandom/' ./usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/java.security
 
 # BMP install
-ENV BMP_VERSION 2.1.3
+ENV BMP_VERSION 2.1.4
 RUN wget -O browsermob-proxy.zip https://github.com/lightbody/browsermob-proxy/releases/download/browsermob-proxy-$BMP_VERSION/browsermob-proxy-$BMP_VERSION-bin.zip \
     && unzip -q /browsermob-proxy.zip \
     && rm -f /browsermob-proxy.zip
