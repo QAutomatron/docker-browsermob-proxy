@@ -1,7 +1,7 @@
 # docker-browsermob-proxy
 Dockerfile to build container with Browsermob Proxy
 
-Current version: 2.1.3
+Current version: 2.1.4
 
 
 Default options:
