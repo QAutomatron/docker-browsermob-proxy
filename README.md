@@ -14,7 +14,7 @@ TTL Timeout (shutdown innactive proxy): 600 sec
 
 How to run:
 
-`docker run -d -p 9090:9090 -p 39500-39999:39500:39999 --name bmp qautomatron/docker-browsermob-proxy`
+`docker run -d -p 9090:9090 -p 39500-39999:39500-39999 --name bmp qautomatron/docker-browsermob-proxy`
 
 If you want to set your options, you can pass Enviroment Variables:  
 
